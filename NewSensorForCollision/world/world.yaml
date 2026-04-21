@@ -1,0 +1,14 @@
+properties: {}
+layers:
+  - name: "static"
+    map: "layer.yaml"
+    color: [1.0, 1.0, 1.0, 1]
+  - name: "no_laser"
+  - name: "robot_body"
+models:
+  - name: serp
+    model: "serp.model.yaml"
+    pose: [-1.7, 1.0, -90.0]
+  - name: robot2
+    model: "second.model.yaml"
+    pose: [0, 0.4, -0.6]
